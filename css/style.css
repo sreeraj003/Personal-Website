@@ -1,10 +1,16 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     color: #000000;
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 h1,
@@ -256,6 +262,7 @@ a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 0%;
 }
 
 .hero .container-fluid {
